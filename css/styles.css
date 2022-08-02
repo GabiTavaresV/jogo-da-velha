@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-size:  42px;
+    font-size: 42px;
 }
 
 /* botões*/
@@ -21,12 +21,10 @@ h1 {
     width: 300px;
     margin: 0;
     flex-direction: row;
-    flex-wrap:  wrap;
+    flex-wrap: wrap;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 
 .box {
@@ -64,9 +62,9 @@ h1 {
 }
 
 .o {
-    width:  50px;
-    height: 50px;
-    border:  5px solid green;
+    width:  40px;
+    height: 40px;
+    border: 5px solid green;
     border-radius: 50%;
     display: inline-block;
     margin-top: 17px;
