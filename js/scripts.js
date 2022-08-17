@@ -224,4 +224,15 @@ function declareWinner(winner) {
   setTimeout(function () {
     messageContainer.classList.add("hide");
   }, 3000);
+
+  // Zera as jogadas
+  player1 = 0;
+  player2 = 0;
+
+  // remove x e o
+  let boxesToRemove = document.querySelectorAll(".box div");
+
+  for (let i = 0; i < boxesToRemove.length; i++) {
+    boxesToRemove[i].parentNode.removeChild(boxesToRemove[i]);
+  }
 }
