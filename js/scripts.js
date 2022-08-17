@@ -220,4 +220,8 @@ function declareWinner(winner) {
   // exibe msg
   messageText.innerHTML = msg;
   messageContainer.classList.remove("hide");
+
+  setTimeout(function () {
+    messageContainer.classList.add("hide");
+  }, 3000);
 }
